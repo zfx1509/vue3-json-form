@@ -1,9 +1,9 @@
 import { defineComponent, PropType } from 'vue'
-import { Schema, SchemaTypes, FieldPropsDefine } from './types'
+import { Schema, SchemaTypes, FiledPropsDefine } from './types'
 import SchemaItem from './SchemaItem'
 
 export default defineComponent({
-  props: FieldPropsDefine,
+  props: FiledPropsDefine,
   name: 'SchemaForm',
   setup(props, { slots, emit, attrs }) {
     const handleChange = (v: any) => {

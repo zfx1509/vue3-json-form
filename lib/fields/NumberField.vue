@@ -3,10 +3,10 @@
 </template>
 
 <script lang="ts" setup="props">
-import { FieldPropsDefine, Schema } from '../types'
+import { FiledPropsDefine, Schema } from '../types'
 
 export default {
-  props: FieldPropsDefine,
+  props: FiledPropsDefine,
 }
 declare const props: {
   value: any
