@@ -1,3 +1,4 @@
+/* eslint-disable */
 const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin')
 const CircularDependencyPlugin = require('circular-dependency-plugin')
 

@@ -44,7 +44,7 @@ export default defineComponent({
     const editorRef = shallowRef()
 
     const containerRef = ref()
-
+    
     /* eslint-disable @typescript-eslint/camelcase */
     let _subscription: Monaco.IDisposable | undefined
     let __prevent_trigger_change_event = false
